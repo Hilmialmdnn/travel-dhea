@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visit Indonesia</title>
+    <!-- Materialize CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" rel="stylesheet">
+    <link rel="https://fonts.googleapis.com/icon?family=Material+Icons" href="styles.css">
+    <style>
+        body {
+        background-image:url('https://i.pinimg.com/736x/db/83/d5/db83d547531f9d811b090263dcf6bb3f.jpg'); 
+        background-size: cover;
+        color: white; /* Warna teks */
+        }
+
+        .travel-title {
+        text-transform: uppercase;
+        font-weight: bold;
+        }
+
+        .indonesia-title {
+        font-size: 60px; 
+        margin-top: 10%; 
+        }
+
+        .description {
+        margin-top: 20px; 
+        max-width: 600px; 
+        
+        }
+
+        .swipe {
+        margin-top: 30px; 
+        font-weight: bold;
+        }
+        .tabs {
+            max-width: 700px;
+            text-align: center;
+        }
+
+        h5 {
+            font-style:oblique;
+    
+        }
+
+        h6 {
+           text-align: center; 
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h5 class="travel-title">TRAVEL</h5>
+            <h6 class="HI, DHEA FARISTHA">HI, DHEA FARISTHA!</h6>
+            <h6 class="243307006">243307006</h6>
+
+            <div class="tabs">
+                <ul class="tabs">
+                    <li class="tab col s3"><a href="#home">home</a></li>
+                    <li class="tab col s3"><a href="destination travel.html">destination</a></li>
+                    <li class="tab col s3"><a href="book travel visit.html">book trip</a></li>
+                    <li class="tab col s3"><a href="contact us web.html">contact us</a></li>
+                    <li class="tab col s3"><a href="login travel.html">login</a></li>
+
+                </ul>
+            </div>
+            <h1 class="indonesia-title">VISIT<br>INDONESIA</h1>
+            <p class="description">
+                <div>Mount Kelimutu is a volcano located on Flores Island, NTT Province, Indonesia.</div> 
+                Nusa Penida Island is in the southeastern part of the mainland island of Bali.
+                <div>The Raja Ampat Islands are a group of islands located in the western part of the Bird's Head peninsula on the island of New Guinea.</div>
+            </p>
+            <p class="swipe">SWIPE &gt;&gt;</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const elems = document.querySelectorAll('.tabs');
+            const instances = M.Tabs.init(elems);
+        });
+    </script>
+</body>
+</html>
+    

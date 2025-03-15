@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Kontak</title>
+    <style>
+        body {
+            background-color: #e3f2fd;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            margin-top: 20px;
+        }
+        .btn-kirim {
+            background-color: #0d47a1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <h5>Kontak</h5>
+        <p>Email: <a href="travelvisit_Indonesia@gmail.com">travelvisit_Indonesia@gmail.com</a></p>
+        <p>Telepon: <a href="tel:+62 786 976 766">+62 786 967 766</a></p>
+
+        <h5>Ikuti Kami</h5>
+        <p>
+            <a href="#">Facebook</a> | 
+            <a href="#">Instagram</a>
+        </p>
+
+        <h5>Kirim Pesan</h5>
+        <form>
+            <div class="input-field">
+                <input type="text" id="nama" required>
+                <label for="nama">Masukkan Nama Anda</label>
+            </div>
+            <div class="input-field">
+                <input type="email" id="email" required>
+                <label for="email">Masukkan Email Anda</label>
+            </div>
+            <div class="input-field">
+                <textarea id="pesan" class="materialize-textarea" required></textarea>
+                <label for="pesan">Tulis pesan Anda di sini</label>
+            </div>
+            <button type="submit" class="btn btn-kirim">Kirim</button>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
